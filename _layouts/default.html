@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/main.css" type="text/css" charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="description" content="DJ software for Linux">
+    <meta name="keywords" content="dj,software,free,open-source,mixing,vinyl,turntable">
+    <meta name="viewport" content="width=device-width">
+    <title>xwax{% if page.title %} - {{ page.title }} {% endif %}</title>
+  </head>
+  <body>
+
+    <div id="header">
+      <a href="/"><img src="images/xwax.png" width="192" height="63" alt="xwax logo"/></a>
+    </div>
+
+    <div id="nav">
+      <ul>
+        <li><a href="/"          {% if page.url == "/" %}               class="current" {% endif %}>Home</a></li>
+        <li><a href="/overview"  {% if page.url == "/overview.html" %}  class="current" {% endif %}>Overview</a></li>
+        <li><a href="/download"  {% if page.url == "/download.html" %}  class="current" {% endif %}>Download</a></li>
+        <li><a href="/interface" {% if page.url == "/interface.html" %} class="current" {% endif %}>Audio interfacing</a></li>
+        <li><a href="/guide"     {% if page.url == "/guide.html" %}     class="current" {% endif %}>Getting started</a></li>
+        <li><a href="/links"     {% if page.url == "/links.html" %}     class="current" {% endif %}>Links</a></li>
+        <li><a href="/contact"   {% if page.url == "/contact.html" %}   class="current" {% endif %}>Contact</a></li>
+        <li><a href="/devel"     {% if page.url == "/devel.html" %}     class="current" {% endif %}>Developers</a></li>
+        <li><a href="/docs"      {% if page.url == "/docs.html" %}      class="current" {% endif %}>Documentation</a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+      {{ content }}
+    </div>
+
+    <div id="footer">
+      <address>&copy; Copyright Mark Hills <script>a="@";m="mark"+a+"xwax.org";document.write("<a href=\"mailto:"+m+"\">"+m+"</a>");</script></address>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+baseurl: ""
+url: "https://xwax.github.io/"
+markdown: kramdown
+permalinks: pretty
