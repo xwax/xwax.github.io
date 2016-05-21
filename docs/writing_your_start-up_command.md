@@ -29,7 +29,7 @@ The ordering of options is important. Most options apply to subsequent music lib
 
 ### ALSA Device Options
 
-The following options are available only when xwax is compiled with [[http://www.alsa-project.org/main/index.php/Main_Page|ALSA]] support.
+The following options are available only when xwax is compiled with [ALSA](http://www.alsa-project.org/main/index.php/Main_Page) support.
 
 ^ Runtime_Flag ^ Flag Function ^
 | ''-a'' __device__ | Create a deck which uses the given ALSA device (eg. plughw:0). |
@@ -38,7 +38,7 @@ The following options are available only when xwax is compiled with [[http://www
 
 ### JACK Device Options
 
-The following options are available only when xwax is compiled with [[http://jackaudio.org/|JACK]] support.
+The following options are available only when xwax is compiled with [JACK](http://jackaudio.org/) support.
 
 ^ Runtime_Flag ^ Flag Function ^
 | ''-j'' __name__ | Create a deck which connects to JACK and registers under the given name. You need to set up the JACK server before launching xwax with this flag. |
@@ -47,7 +47,7 @@ xwax does not set the sample rate for JACK devices; it uses the sample rate give
 
 ### OSS Device Options
 
-The following options are available only when xwax is compiled with [[http://en.wikipedia.org/wiki/Open_Sound_System|OSS]] support.
+The following options are available only when xwax is compiled with [OSS](http://en.wikipedia.org/wiki/Open_Sound_System) support.
 
 ^ Runtime_Flag ^ Flag Function ^
 | ''-d'' __pathname__ | Create a deck which uses the given OSS device (eg. /dev/dsp).|

@@ -3,7 +3,7 @@ layout: default
 title: Four Deck Rigging
 ---
 # Requirements
-  * One or more [[audio interface]]s with four stereo inputs and outputs (8 [[http://en.wikipedia.org/wiki/RCA_connector|RCA]] pairs)
+  * One or more [[audio interface]]s with four stereo inputs and outputs (8 [RCA](http://en.wikipedia.org/wiki/RCA_connector) pairs)
   * A Suitable computer to use the audio interface and xwax
   * A 4+ channel DJ mixer
   * Four physical decks (turntables or CD players)

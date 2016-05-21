@@ -4,7 +4,7 @@ title: Changelog
 ---
 ## xwax Version History
 
-All versions of xwax are available [[http://xwax.org/releases/|here]].
+All versions of xwax are available [here](http://xwax.org/releases/).
 
 ### v1.5 (2014-02-09)
 

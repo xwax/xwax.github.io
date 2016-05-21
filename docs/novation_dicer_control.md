@@ -4,7 +4,7 @@ title: Novation Dicer Control
 ---
 # Novation Dicer Control
 
-[[http://global.novationmusic.com/digital-dj/dicer|The Novation Dicer]] is a novel midi controller designed to sit in the 45 adapter slot of a Technics turntable. It was the first controller to get support within xwax.
+[The Novation Dicer](http://global.novationmusic.com/digital-dj/dicer) is a novel midi controller designed to sit in the 45 adapter slot of a Technics turntable. It was the first controller to get support within xwax.
 
 
 
@@ -36,5 +36,5 @@ Buttons with a cue point set to them are lit, those without are dimmed.
 
 ## See also
 
-  * [[http://us.novationmusic.com/support/product-downloads?product=Dicer| Novation's Dicer related downloads page]]
-  * [[http://d19ulaff0trnck.cloudfront.net/sites/default/files/downloads/4079/dicer-programmers-reference2.pdf| The Dicer Programmer's Reference Document]]
+  * [ Novation's Dicer related downloads page](http://us.novationmusic.com/support/product-downloads?product=Dicer)
+  * [ The Dicer Programmer's Reference Document](http://d19ulaff0trnck.cloudfront.net/sites/default/files/downloads/4079/dicer-programmers-reference2.pdf)

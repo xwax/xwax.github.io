@@ -16,7 +16,7 @@ Some DJ audio interfaces have a "thru" connection which allows you to play regul
 
 ## Compatible Interfaces
 
-Any audio interface with 1 stereo input and output for turntable that you can get working with your Linux computer through ALSA, JACK or OSS is suitable for use with xwax. See our list of [[list_of_soundcards|tested soundcards]] for more info.
+Any audio interface with 1 stereo input and output for turntable that you can get working with your Linux computer through ALSA, JACK or OSS is suitable for use with xwax. See our list of [tested soundcards](list_of_soundcards) for more info.
 
 It is possible to use more than one audio interface at once with xwax, it may be more economical to buy multiple soundcards rather than one large one if you wish to use a larger number of turntables at once.
 ## Do I need a preamp?
@@ -67,4 +67,4 @@ Any JACK application capable of amplifying a signal can be placed in the signal 
 
 #### Oliver's Timecode Gain Patch
 
-There is a patch for xwax 1.3 which allows you to use xwax with quieter signals. See [[http://sourceforge.net/mailarchive/forum.php?thread_name=5150C184.40900%40oscille.ca&forum_name=xwax-devel|here]]. But really you should update to xwax 1.4 or later.
+There is a patch for xwax 1.3 which allows you to use xwax with quieter signals. See [here](http://sourceforge.net/mailarchive/forum.php?thread_name=5150C184.40900%40oscille.ca&forum_name=xwax-devel). But really you should update to xwax 1.4 or later.

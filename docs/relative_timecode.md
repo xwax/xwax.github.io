@@ -12,7 +12,7 @@ You can sort-of achieve this by flipping to the other side of the record so you 
 
 ## The Patch
 
-In order to add these to xwax you have to slightly edit the source code before [[build_xwax_from_source|compiling xwax from this modified code]]. The file you need to edit is timecoder.c.
+In order to add these to xwax you have to slightly edit the source code before [compiling xwax from this modified code](build_xwax_from_source). The file you need to edit is timecoder.c.
 
 Open timecoder.c with a text editor find your preferred timecodes definition. Here we are using the Serato 2nd edition definition:
 
@@ -62,7 +62,7 @@ Once done your code should look like this:
 },
 ```
 
-Now [[build_xwax_from_source|compile xwax from this modified code]]. Once you have done this the new relative timecode definition will be available to select using the ''-t'' [[writing_your_start-up_command|start up flag]] as you would with any of the default timecodes. i.e. ''-t serato_rel''
+Now [compile xwax from this modified code](build_xwax_from_source). Once you have done this the new relative timecode definition will be available to select using the ''-t'' [start up flag](writing_your_start-up_command) as you would with any of the default timecodes. i.e. ''-t serato_rel''
 
 If you specify more that one timecode with the ''-t'' flag then can switch between the specified timecodes by pressing ''Ctrl-F3'' for deck A, ''Ctrl-F7'' for deck B or ''Ctrl-F11'' for deck C.
 
