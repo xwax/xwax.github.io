@@ -14,9 +14,9 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### Installing xwax
 
-  * [Building xwax from Source](Build xwax from Source)
-  * [Debian Repository Installation](Debian Installation)
-  * [Ubuntu Repository Installation](Ubuntu Installation)
+  * [Building xwax from Source](/build_xwax_from_source)
+  * [Debian Repository Installation](/debian_installation)
+  * [Ubuntu Repository Installation](/ubuntu_installation)
   * xwax is also avalible in the Arch Linux Community repository
 
 
@@ -57,7 +57,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### Outdated Hacks
 
-  * [Changing the font size in xwax](changing the font size in xwax)
+  * [Changing the font size in xwax](/changing_the_font_size_in_xwax)
   * ["Vertical side-by-side waveforms" patch](http://pastebin.fr/pastebin.php?dl=22474) for xwax 1.0
   * [[45RPM Mode]] for 0.7 and earlier
 
@@ -68,14 +68,14 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 [[Default Import Script]]
 
-  * [ Scan + Import Script for Scratching a Live Input](Modified Script For Live Mic Input )
-  * [ cd audio instructions](setting up the cd audio importer )
+  * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
+  * [cd audio instructions](/setting_up_the_cd_audio_importer)
 
 ### Scan Scripts
 
 [[Default Scan Script]]
 
-  * [Scan + Import Script for Scratching a Live Input](Modified Script For Live Mic Input )
+  * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
   * [[iggy's Scan Script]] - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata
   * [[oligau's Scan Script]] - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata or from filename if no tag present
 
@@ -87,7 +87,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ## Misc
 
-  * [xwax Version History](xwax_changelog)
+  * [xwax Changelog](xwax_changelog)
 
 # Common Issues & Troubleshooting
 
@@ -101,6 +101,6 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 xwax is not only a project, but also a lively community!
 
-  * Check out [our works](ourworks) and list your creations too!
+  * Check out [our works](/our_works) and list your creations too!
   * Get in touch with the developers with your feedback and bug reports via the [xwax-devel mailing list.](https://lists.sourceforge.net/lists/listinfo/xwax-devel)
   * You can also chat with or ask advice from the xwax community live in the IRC channel #xwax on [irc.freenode.net](http://freenode.net/using_the_network.shtml). Best practice is to ask your question and then leave your IRC client running while you do something else as it may be some time before someone replies.
