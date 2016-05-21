@@ -24,5 +24,3 @@ CDJ's are the modern version of a turntable that plays CD's instead of vinyl rec
 |YES
 |NO
 |}
-
-[[category:Troubleshooting]]
