@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Playlist Exporter
 ---
 [[http://kde-apps.org/content/show.php/?content=128373|xwax Playlist Exporter]] is Amarok 2 script that exports your current Amarok playlist to a file that can be read by xwax.
 

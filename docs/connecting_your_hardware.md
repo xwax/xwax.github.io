@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Connecting Your Hardware
 ---
 # Connecting Your Hardware
 
@@ -12,7 +12,7 @@ title: Documentation
 
 Connect the corresponding stereo output on your audio interface to the desired channel on your DJ mixer. You should be plugging your interface into the input labelled "line" or "CD". Do not connect it to a phono input. To avoid unwanted pops being broadcast through your sound system completely lower the fader for that channel while connecting equipment or powering up your audio interface.\\ \\ Connect your audio interface to your computer as per usual. When possible connect it directly to the computer rather than via a USB hub or splitter. Note that xwax is not locked to any specific audio interface, you can use any card you want, providing you can get it working nicely with your linux computer. You can also use more than one interface with xwax at the same time.
 
-Some DJ audio interfaces have a "thru" connection which allows you to play regular vinyl without having to rewire your setup, connect these to the phono inputs on your DJ mixer. 
+Some DJ audio interfaces have a "thru" connection which allows you to play regular vinyl without having to rewire your setup, connect these to the phono inputs on your DJ mixer.
 
 ## Compatible Interfaces
 
@@ -37,7 +37,8 @@ There are other options for setting up a similar amplification with greater cont
 
 Here is an example of a modified .asoundrc file that amplifies the signal before it reaches xwax. Draw elements of it and modify the .asoundrc for your card accordingly. While fiddly, this may be the best method.
 
-<code c>#
+```
+#
 # asoundrc to apply a "software preamp"
 #
 
@@ -57,7 +58,8 @@ pcm.deck0_timecode {
 
 pcm.deck0_playback {
         type plug
-        slave.pcm "hw:Audio8DJ,0,0"</code>
+        slave.pcm "hw:Audio8DJ,0,0"
+```
 
 #### JACK Amplification
 

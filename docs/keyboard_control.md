@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Keyboard Controls
 ---
 # Keyboard Control
 

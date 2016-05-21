@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Debian Repository Installation
 ---
 # Debian Repository Installation
 

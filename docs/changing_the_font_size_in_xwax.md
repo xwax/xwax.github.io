@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Documentation
+title: Changing the font size in xwax
 ---
-#  Changing the font size in xwax
+# Changing the font size in xwax
 
 **Update:** instead of patching, you can use xwax's scalable UI as of version 1.4. See ''man xwax'' for information and examples.
 
@@ -10,7 +10,7 @@ In order to change the font sizes in xwax you have to slightly edit the source c
 
 Open interface.c with a text editor and edit the following section of code:
 
-<code C>
+```C
 /* Font definitions */
 
 #define FONT "DejaVuSans.ttf"
@@ -32,4 +32,4 @@ Open interface.c with a text editor and edit the following section of code:
 #define DETAIL_FONT "DejaVuSansMono.ttf"
 #define DETAIL_FONT_SIZE 9
 #define DETAIL_FONT_SPACE 12
-</code>
+```

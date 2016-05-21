@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Documentation
+title: Using xwax with only one turntable or CDJ
 ---
-#  Using xwax with only one turntable or CDJ 
+#  Using xwax with only one turntable or CDJ
 
 Using xwax with only one turntable or CDJ is possible if you use an Y-adapter cable to send your preamp's output to two pairs of inputs of your soundcard, your ALSA setup allows you to read twice from the same source or you are using the JACK audio server.
 
@@ -10,7 +10,9 @@ The following example assumes the use of JACK. See [[Build xwax from source]] fo
 
 Start xwax from your terminal of choice, specifying two virtual decks:
 
+```sh
 xwax -j deck1 -j deck2 -l <your musicfiles>
+```
 
 Next use e.g. Qjackctl to connect your soundcard's input to all xwax decks at the same time. If you start your timecode vinyl, you'll notice that they will play simultaneously.
 

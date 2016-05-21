@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Four Deck Rigging
 ---
 # Requirements
   * One or more [[audio interface]]s with four stereo inputs and outputs (8 [[http://en.wikipedia.org/wiki/RCA_connector|RCA]] pairs)

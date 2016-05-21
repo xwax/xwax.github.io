@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Our Works
 ---
 # Our Works
 

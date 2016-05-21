@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Novation Dicer Control
 ---
 # Novation Dicer Control
 

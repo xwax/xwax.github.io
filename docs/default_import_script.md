@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Default xwax Import Script
 ---
 # Default xwax Import Script
 

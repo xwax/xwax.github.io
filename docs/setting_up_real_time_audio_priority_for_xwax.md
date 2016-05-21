@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Setting Up Real Time Priority
 ---
 # Setting Up Real Time Priority
 

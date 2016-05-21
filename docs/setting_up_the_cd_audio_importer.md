@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Documentation
+title: Setting Up the CD Audio Importer
 ---
 xwax's standard import script allows importing tracks directly from an audio cd
 
-on the xwax command line specify -l /path/to/cdimportfolder/
+on the xwax command line specify `-l /path/to/cdimportfolder/`
 
 you must then create cdimportfolder.
 
@@ -14,7 +14,7 @@ the file track2.cdaudio must contain the number 2
 ...
 the file track99 must contain the number 99
 
-(the maximum number of tracks on an audio cd is 99) 
+(the maximum number of tracks on an audio cd is 99)
 
 the importer works like this:
 

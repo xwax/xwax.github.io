@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Documentation
+title: Writing  Your Startup Command
 ---
+
 # Writing Your Startup Command
 
 xwax is launched from the terminal by entering a command consisting of ''xwax'' followed by a series of flags that tell xwax what settings to use, where to scan for you music, etc. This page will walk you though the various flags and help you decide which ones you ought to use.
@@ -24,7 +25,7 @@ The ordering of options is important. Most options apply to subsequent music lib
 | ''-k'' | Lock  into RAM any memory required for real-time use.  This includes audio tracks held in memory which can be large.  Use ulimit -l to raise the kernel's memory limit to allow this. |
 | ''-q'' __n__ | Change the real-time priority of the process. A priority of 0 gives the process no priority, and is used for testing only. The default value is 80. (?) |
 | ''-g'' __n__x__n__[+__n__+__n__] | Change the geometry of the display. This size and position is passed to SDL, which may use it to set the display mode, or the size of an X window. Typically this will dictate the starting size of the xwax window |
-| ''-h'' | Display the help message and default values. \\ More info can be found on the xwax man page, excessed by entering ''man xwax'' into the terminal. | 
+| ''-h'' | Display the help message and default values. \\ More info can be found on the xwax man page, excessed by entering ''man xwax'' into the terminal. |
 
 ### ALSA Device Options
 
@@ -76,7 +77,8 @@ Each directory within music will show up as a crate inside xwax, etc. FIXME
 
 Should this be it's own page?
 
-<code bash xwax-launch>#!/bin/sh
+```bash
+#!/bin/sh
 
 # The loop
 # Replace ~/Music/* with the location of the directories you wish to scan FIXME
@@ -85,10 +87,11 @@ for P in ~/Music/*; do
     PLAYLISTS="-l $P $PLAYLISTS"
 done
 
-# Replace this start up command with your own, except keeping $PLAYLISTS in place of the -l flag 
-xwax -a plughw:Audio4DJ,0,0 -a plughw:Audio4DJ,0,1 $PLAYLISTS </code>
+# Replace this start up command with your own, except keeping $PLAYLISTS in place of the -l flag
+xwax -a plughw:Audio4DJ,0,0 -a plughw:Audio4DJ,0,1 $PLAYLISTS
+```
 
 
 # Hey! This Isn't Finished!
 
-If this isn't completed soon you should nag me to finish it. --- //[[louispopinjay@gmail.com|Louis Popinjay]] 2013/02/26 06:28//
+Fix it then! https://github.com/xwax/xwax.github.io

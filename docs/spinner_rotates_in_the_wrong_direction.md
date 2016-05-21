@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Documentation
+title: Spinner Rotates the Wrong Way
 ---
-Switch your RCA connectors.
+
+Switch the left and right channel of your RCA connectors. You've got the left
+output going in to the right input. :)
+
 [[category:troubleshooting]]

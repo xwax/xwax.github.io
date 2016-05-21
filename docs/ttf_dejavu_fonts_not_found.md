@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: ttf-dejavu fonts not found
 ---
 # Cause
 GNU/Linux distributions vary thier filing system in different ways. As such, the code paths in the install file may or may not reflect the path on your GNU/Linux system.

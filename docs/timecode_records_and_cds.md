@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Timecode Records and CDs
 ---
 # Timecode Media
 

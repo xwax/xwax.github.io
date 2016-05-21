@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation
+title: Oligau's Scan Script
 ---
 This script is based on iggy's scan script. It's modified to fallback to classic filename parsing if no artist/trackname is found in the tag.
 
