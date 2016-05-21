@@ -2,3 +2,9 @@ baseurl: ""
 url: "https://xwax.github.io/"
 markdown: kramdown
 permalinks: pretty
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

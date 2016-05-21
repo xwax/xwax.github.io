@@ -15,7 +15,7 @@ gem install bundler
 bundle install
 
 # Run the site compiler
-bundle exec jekyll server --watch
+bundle exec jekyll server --watch --safe
 
 # Now go to localhost:4000
 ```
