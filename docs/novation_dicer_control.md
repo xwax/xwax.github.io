@@ -12,11 +12,11 @@ title: Novation Dicer Control
 
 {{ :dicerpair.jpg?300|}}
 
-Connect the Dicers to your computer via USB and then launch xwax with the ''--dicer'' flag followed by the Dicer's ALSA device name.
+Connect the Dicers to your computer via USB and then launch xwax with the `--dicer` flag followed by the Dicer's ALSA device name.
 
-e.g. ''--dicer hw:Dicer''
+e.g. `--dicer hw:Dicer`
 
-(Note that version 1.3 or older uses the ''-dicer'' flag, with a single hyphen)
+(Note that version 1.3 or older uses the `-dicer` flag, with a single hyphen)
 
 ## Using the Novation Dicers
 

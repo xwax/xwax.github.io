@@ -9,4 +9,4 @@ Correct the path in your system to fit the script.
 ## Methods
   * Notify your package manager administrator of the mispathing.
   * Create the directorys that the script is searching and make [symbolic links](http://en.wikipedia.org/wiki/Symbolic_link) in them to the actual fonts.
-    * ''mkdir /usr/share/fonts/ttf-dejavu && find / -type f -iname "DejaVuSans*.ttf" -exec ln -s {} /usr/share/fonts/ttf-dejavu \\;''
+    * `mkdir /usr/share/fonts/ttf-dejavu && find / -type f -iname "DejaVuSans*.ttf" -exec ln -s {} /usr/share/fonts/ttf-dejavu \\;`

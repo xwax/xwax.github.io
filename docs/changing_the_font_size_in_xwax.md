@@ -4,7 +4,7 @@ title: Changing the font size in xwax
 ---
 # Changing the font size in xwax
 
-**Update:** instead of patching, you can use xwax's scalable UI as of version 1.4. See ''man xwax'' for information and examples.
+**Update:** instead of patching, you can use xwax's scalable UI as of version 1.4. See `man xwax` for information and examples.
 
 In order to change the font sizes in xwax you have to slightly edit the source code before [compiling xwax from this modified code](build_xwax_from_source). The file you need to edit is interface.c, within you will find several variable you can tweak to change the size of your fonts.
 

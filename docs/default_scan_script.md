@@ -6,7 +6,7 @@ title: Default xwax Scan Script
 
 ## xwax 1.3 - Current
 
-This version added the ability to extract BPM metadata from a correctly formatted filename. e.g. "''Jo - R Type (165 BPM).mp3''"
+This version added the ability to extract BPM metadata from a correctly formatted filename. e.g. "`Jo - R Type (165 BPM).mp3`"
 It also fixed the bug in the previous version where only lower-case file formats would be shown in the library.
 
 <code bash scan>

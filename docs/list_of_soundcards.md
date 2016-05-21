@@ -6,7 +6,7 @@ title: Tested Soundcards
 
 If you have tried other soundcards with xwax please add your findings here or report it to mailing list.
 
-You can find ALSA device names by entering ''cat /proc/asound/cards'' or ''aplay -l'' into the terminal.
+You can find ALSA device names by entering `cat /proc/asound/cards` or `aplay -l` into the terminal.
 ## USB Soundcards
 
 

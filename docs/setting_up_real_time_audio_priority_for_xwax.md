@@ -6,7 +6,7 @@ title: Setting Up Real Time Priority
 
 To achieve low-latency audio you need to increase the scheduling priority of the playback thread, xwax will perform poorly or not boot at all without it.
 
-This normally requires a modification to ''rtprio'' in the ''limits.conf'' file. 80 is the recommended value. On Ubuntu this file is located in /etc/security/
+This normally requires a modification to `rtprio` in the `limits.conf` file. 80 is the recommended value. On Ubuntu this file is located in /etc/security/
 
 ## Guide for doing this on Ubuntu
 
