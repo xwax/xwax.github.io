@@ -10,7 +10,7 @@ title: Novation Dicer Control
 
 ## Setting up the Novation Dicers
 
-{{ :dicerpair.jpg?300|}}
+![Novation Dicers](/images/dicerpair.jpg)
 
 Connect the Dicers to your computer via USB and then launch xwax with the `--dicer` flag followed by the Dicer's ALSA device name.
 

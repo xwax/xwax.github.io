@@ -6,7 +6,7 @@ title: Connecting Your Hardware
 
 ## Setup Diagram
 
-{{:hardware_diagram.png |}}
+![Hardware connection diagram](/images/hardware_diagram.png)
 
  Connect the output from your first turntable or CD player to the first stereo input on your audio interface. You may need to do this via an external preamp- see the section below if you are unsure if you require a preamp. It is important that you always ensure that the RCA plugs the correct way round when connecting your turntable to your audio interface, if you mix up the left and right plugs the track will play backwards within xwax.
 
