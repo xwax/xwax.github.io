@@ -1,0 +1,160 @@
+- name: Behringer UCA222
+  alsa_device_names:
+    - default
+  links:
+    - http://www.behringer.com/EN/Products/UCA222.aspx
+  tested_on:
+    - Ubuntu 11.04
+  comments: |
+    Ensure monitor switch is set to "off".
+
+
+- name: Behringer UFO202
+  alsa_device_names:
+    - ???
+  links:
+    - http://www.behringer.com/EN/Products/UFO202.aspx
+  tested_on:
+    - Ubuntu 11.04
+  comments: |
+    Requires [modification](http://mixxx.org/forums/viewtopic.php?f=6&t=2438)
+    to work.
+
+
+- name: ESI Maya44 USB
+  alsa_device_names:
+    - maya44_pair1
+    - maya44_pair2
+  links:
+    - http://www.esi-audio.com/products/maya44usb/
+    - http://www.pogo.org.uk/~mark/linuxdj/maya44.asoundrc
+  tested_on:
+    - Ubuntu 10.10
+  comments: |
+    May require a high -m value (15 or higher worked in testing).
+
+    [.asoundrc file](http://www.pogo.org.uk/~mark/linuxdj/maya44.asoundrc) to
+    provide stereo pairs.
+
+    This card has no internal phono preamp and thus it is unsuitable for use
+    with most turntables without an additional preamp. This is not an issue
+    with CD players or other line level devices.
+
+
+- name: Hercules DJ Console Mk2
+  alsa_device_names:
+    - ???
+  links:
+    - http://www.hercules.com/uk/legacy/bdd/p/12/dj-console-mk2-virtualdj-djc-ed/
+  tested_on:
+    - Debian Squeeze
+  comments: |
+    Requires a high output cartridge such as Shure M44-7 (9.5mV) to work well,
+    Pickering 625-DJ (3mV) was not loud enough. Set Headphones Selection knob
+    to Deck B to isolate output for second deck on phono outputs 3 and 4.
+
+
+- name: Native Instruments Audio 4 DJ
+  alsa_device_names:
+    - plughw:Audio4DJ,0,0
+    - plughw:Audio4DJ,0,1
+  links:
+  tested_on:
+    - Debian Jessie
+    - Ubuntu 12.10
+    - Ubuntu 10.10
+  comments: |
+    Set inputs to Phono: `amixer -c [cardnumber] cset numid=1 1`<br>
+    Set inputs to Line: `amixer -c [cardnumber] cset numid=1 0`
+
+
+- name: Native Instruments Audio 8 DJ
+  alsa_device_names:
+    - plughw:Audio8DJ,0,0
+    - plughw:Audio8DJ,0,1
+    - plughw:Audio8DJ,0,2
+    - plughw:Audio8DJ,0,3
+  links:
+  tested_on:
+    - Debian Jessie
+    - Ubuntu 12.10
+    - Ubuntu 10.10
+  comments: |
+    Set inputs to Phono: `amixer -c [cardnumber] cset numid=1 1`<br>
+    Set inputs to Line: `amixer -c [cardnumber] cset numid=1 0`
+
+
+- name: Native Instruments Audio 6
+  alsa_device_names:
+    - T6_pair1
+    - T6_pair2
+    - T6_pair3
+  links:
+    - http://www.pogo.org.uk/~mark/linuxdj/t6.asoundrc
+  tested_on:
+    - Ubuntu 11.11
+  comments: |
+    PASSTHRU on channel A: `amixer -c T6 cset numid=1 on/(off)`<br>
+    PASSTHRU on channel B: `amixer -c T6 cset numid=2 on/(off)`<br>
+    switch PHONO/LINE on channel A: `amixer -c T6 cset numid=3 on/(off)`<br>
+    switch PHONO/LINE on channel B: `amixer -c T6 cset numid=4 on/(off)`
+
+    [.asoundrc file](http://www.pogo.org.uk/~mark/linuxdj/t6.asoundrc) to provide stereo pairs.
+
+
+- name: Rane SL-1
+  alsa_device_names:
+    - ???
+  links:
+    - http://mailman.alsa-project.org/pipermail/alsa-devel/2009-January/013856.html
+    - http://mailman.alsa-project.org/pipermail/alsa-devel/2009-August/020784.html
+  tested_on:
+    - Fedora ~2011
+  comments: |
+    Phono input does not work making it unsuitable for use with most turntables
+    without an additional preamp. This is not an issue with CD players or other
+    line level devices.
+
+    There are ALSA patches to enable the preamp.
+    [1](http://mailman.alsa-project.org/pipermail/alsa-devel/2009-January/013856.html)
+    [2](http://mailman.alsa-project.org/pipermail/alsa-devel/2009-August/020784.html)
+
+
+- name: American Audio Versaport
+  alsa_device_names:
+    - versaport_pair1
+    - versaport_pair2
+  links:
+    - http://www.adjaudio.com/ProductDetails.aspx?ItemNumber=1374
+  tested_on:
+    - Debian Squeeze 2012/09
+    - avlinux 6.0
+  comments: |
+    Needs a [.asoundrc file](/docs/americanaudio_versaport_asoundrc_file) to
+    provide stereo pairs.
+
+    It only have a preamp on Input 2, so you need external preamps to use both
+    decks with standard turntables.
+
+    Volume is always turned down, use this command to turn the volume up before
+    launching xwax. `amixer set -c [cardnumber] Speaker,0 100%,100% unmute`
+
+    Available as OEM variants (MixVibes U-MIX44, Reloop Spin!, iScratch
+    Mixlive, Omnitronix DDI, ...)
+
+
+- name: MixVibes U-MIX44
+  alsa_device_names:
+    - umix_pair1
+    - umix_pair2
+  links:
+    - http://www.mixvibes.com/content/products/u-mix44
+  tested_on:
+    - Debian Squeeze 2012/09
+    - avlinux 6.0
+  comments: |
+    Needs a [.asoundrc file](/docs/mixvibes_umix44_asoundrc_file) to
+    provide stereo pairs.
+
+    Available as OEM variants (MixVibes U-MIX44, Reloop Spin!, iScratch
+    Mixlive, Omnitronix DDI, ...)
