@@ -4,7 +4,7 @@ title: Timecode Records and CDs
 ---
 # Timecode Media
 
-**xwax** requires a special media source embedded with a special "tone", known as a //timecode//, to send a signal to xwax telling it how to manipulate the audio file.
+**xwax** requires a special media source embedded with a special "tone", known as a *timecode*, to send a signal to xwax telling it how to manipulate the audio file.
 
 
 
@@ -12,7 +12,7 @@ title: Timecode Records and CDs
 
 ## Vinyl Media
 
-    * [Scratch Live](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) //(2nd edition or "Performance series" pressings)// **Recommended**
+    * [Scratch Live](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) *(2nd edition or "Performance series" pressings)* **Recommended**
     * [MixVibes](http://www.mixvibes.com/content/control-vinyl-records-0) by [Mixvibes](http://www.mixvibes.com/)
 
 Current generation Traktor Scratch records **are not** supported.
@@ -25,7 +25,7 @@ The following records are still supported by xwax but are no longer available in
 
 ## CD Media
 
-    * [Scratch Live Control CD](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) //([Free Download](http://serato.com/downloads/scratchlive-controlcd))// ** Recommended**
+    * [Scratch Live Control CD](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) *([Free Download](http://serato.com/downloads/scratchlive-controlcd))* ** Recommended**
 
 Current generation Traktor Scratch CDs **are not** supported.
 

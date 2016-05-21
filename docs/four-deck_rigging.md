@@ -11,7 +11,7 @@ title: Four Deck Rigging
 # Practice
 The xwax core capable of using as many interfaces that you can provide. However, it's interface design only supports the use of three decks in an instance. The reason is that the controls/commands are given via the function buttons (i.e. F1, F2, F3, and etc). Each of the buttons in the three groups of four are staticly assigned for a specific operation.
 
-To break the three deck barrier you can run multiple instances of xwax with out complication. This would result in more than one xwax window being open. You can split these instances (the windows) as you see fit,, and ALT+TAB between the two windows to control them. //Just remember to keep track of which window is for which decks!//
+To break the three deck barrier you can run multiple instances of xwax with out complication. This would result in more than one xwax window being open. You can split these instances (the windows) as you see fit,, and ALT+TAB between the two windows to control them. *Just remember to keep track of which window is for which decks!*
 
 # See also
 [[One deck setup]]- Controlling a number of virtual decks with a smaller number of physical decks.

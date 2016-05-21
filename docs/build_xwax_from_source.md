@@ -14,7 +14,7 @@ See also the [xwax installation video guide](https://www.youtube.com/watch?v=ylG
   - If you wish to build [JACK](http://jackaudio.org/) support and then run xwax on JACK you will need to install additional packages, which you can do with the command: `sudo apt-get install libjack-dev jackd qjackctl`
   - Ensure you have the desired [audio decoders](http://xwax.org/overview.html#decoder) installed so you can play mp3s and other formats. The default decoders are cdparanoia, mpg123 and ffmpeg. You can obtain these via your regular graphical package manager or by executing the following in the terminal: `sudo apt-get install cdparanoia mpg123 ffmpeg`
   - Download the xwax source from [the xwax download page.](http://xwax.org/download.html) Older versions can be found [in the xwax release archive.](http://xwax.org/releases/)
-  - You now need to unpack the .tar.gz file, for this example we will assume you are installing xwax-1.4 and the file is in your ~/Downloads/ directory, //fix the path for the version you are installing//. `tar -xvf ~/Downloads/xwax-1.4.tar.gz` This will extract the contents of the tarball to a directory at `~/xwax-1.4/`
+  - You now need to unpack the .tar.gz file, for this example we will assume you are installing xwax-1.4 and the file is in your ~/Downloads/ directory, *fix the path for the version you are installing*. `tar -xvf ~/Downloads/xwax-1.4.tar.gz` This will extract the contents of the tarball to a directory at `~/xwax-1.4/`
   - Navigate to the unpacked folder and read the contents of the INSTALL file for detailed instructions on how to compile xwax. For a standard installation with ALSA enabled, navigate to the xwax folder and then execute the configuration script: `cd ~/xwax-1.4/
 ./configure --prefix /usr --enable-alsa` To configure JACK support as well, add the --enable-jack option as follows: `./configure --prefix /usr --enable-alsa --enable-jack`
   - To build and install xwax, use the commands: `make
@@ -37,7 +37,7 @@ To open two decks and specify the path to music files in the /home/myusername/Mu
 
 `xwax -j deck1 -j deck2 -l ~/Music/`
 
-//Note it is wise to always run xwax in the terminal so you can read and learn from any error messages!//
+*Note it is wise to always run xwax in the terminal so you can read and learn from any error messages!*
 
 #### Now you can move onto the configuration pages!
   * [[Connecting your hardware]]

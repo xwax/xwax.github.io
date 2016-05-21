@@ -23,7 +23,7 @@ For live mic scratching craziness append the folowing to your import script:
     ;;
 ```
 
-You will almost certainly need to change this to use the correct ALSA device name for the soundcard you want to record from.  //(Is it possible to use JACK?)// You may also wish to change the trim or edit the length of time `sox` records for.
+You will almost certainly need to change this to use the correct ALSA device name for the soundcard you want to record from.  *(Is it possible to use JACK?)* You may also wish to change the trim or edit the length of time `sox` records for.
 
 You probably don't need --show-progress but it helps for debugging.
 

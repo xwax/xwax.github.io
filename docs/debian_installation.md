@@ -12,4 +12,4 @@ $ sudo apt-get install xwax
 
 Alternatively you can use a graphical package manager such as synaptic.
 
-//Note: the xwax_scan and xwax_import scripts are located under /usr/lib/xwax should you wish to replace them with customized versions.//
+*Note: the xwax_scan and xwax_import scripts are located under /usr/lib/xwax should you wish to replace them with customized versions.*
