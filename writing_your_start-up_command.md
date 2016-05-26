@@ -13,7 +13,8 @@ Here's a explanation of all the flags for xwax. Don't worry if it seems a bit mu
 
 The ordering of options is important. Most options apply to subsequent music libraries or decks, which can be given multiple times. See the xwax man page (enter `man xwax` into the terminal) for examples.
 
-^ Runtime_Flag ^ Flag Function ^
+| Runtime Flag | Flag Function |
+| ------------ | ------------- |
 | `-l` __path__ | Scan the music directory or playlist at the given path. \\ The directory/playlist specified here will show up in the list of "crate" to the left of the xwax interface. See below for a script you may find useful for passing music directories to xwax |
 | `-t` __name__ | Use the named timecode for subsequent decks. Multiple timecodes can be specified for a deck or decks as can be switched between live using the `shift` + `F3`/`F7`/`F11` key combo for decks 0, 1 and 2 respectively. \\ The available timecodes are: `serato_2a` (the default if no timecode is specified), `serato_2b`, `serato_cd`, `traktor_a`, `traktor_b`, `mixvibes_v2`, `mixvibes_7inch` |
 | `-33` | Set the reference playback speed for subsequent decks to 33 and one third revolutions per minute. This is the default which xwax will use for decks with neither `-33` or `-45` set. |
@@ -31,7 +32,8 @@ The ordering of options is important. Most options apply to subsequent music lib
 
 The following options are available only when xwax is compiled with [ALSA](http://www.alsa-project.org/main/index.php/Main_Page) support.
 
-^ Runtime_Flag ^ Flag Function ^
+| Runtime Flag | Flag Function |
+| ------------ | ------------- |
 | `-a` __device__ | Create a deck which uses the given ALSA device (eg. plughw:0). |
 | `-r` __n__ | Set the sample rate in hertz for subsequent decks. If left blank xwax will use the default value. |
 | `-m` __n__ | Set the ALSA buffer time in milliseconds for subsequent decks. If left blank xwax will use the default value of 8ms. |
@@ -40,7 +42,8 @@ The following options are available only when xwax is compiled with [ALSA](http:
 
 The following options are available only when xwax is compiled with [JACK](http://jackaudio.org/) support.
 
-^ Runtime_Flag ^ Flag Function ^
+| Runtime Flag | Flag Function |
+| ------------ | ------------- |
 | `-j` __name__ | Create a deck which connects to JACK and registers under the given name. You need to set up the JACK server before launching xwax with this flag. |
 
 xwax does not set the sample rate for JACK devices; it uses the sample rate given in the global JACK configuration.
@@ -49,7 +52,8 @@ xwax does not set the sample rate for JACK devices; it uses the sample rate give
 
 The following options are available only when xwax is compiled with [OSS](http://en.wikipedia.org/wiki/Open_Sound_System) support.
 
-^ Runtime_Flag ^ Flag Function ^
+| Runtime Flag | Flag Function |
+| ------------ | ------------- |
 | `-d` __pathname__ | Create a deck which uses the given OSS device (eg. /dev/dsp).|
 | `-r` __n__ | Set the sample rate in hertz for subsequent decks. |
 | `-b` __n__ | Set the number of OSS buffers for subsequent decks. |
