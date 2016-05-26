@@ -30,6 +30,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
   * [Keyboard Control](/keyboard_control)
   * [Novation Dicer Control](/novation_dicer_control)
+
 ## Hardware & xwax
 
   * [Tested Soundcards](/list_of_soundcards)
