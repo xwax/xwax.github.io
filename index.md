@@ -2,7 +2,7 @@
 layout: default
 title: Documentation
 ---
-#  xwax Community Wiki
+#  xwax Documentation
 
 xwax is an open source [vinyl emulation software](http://en.wikipedia.org/wiki/Vinyl_emulation_software) project under the [GPL](http://en.wikipedia.org/wiki/Gpl) for GNU\Linux
 
@@ -22,30 +22,30 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### Configuring xwax
 
-  * [[Connecting your hardware]]
-  * [[Setting up real time audio priority for xwax]]
-  * [[Writing your start-up command]] FIXME
+  * [Connecting your hardware](/connecting_your_hardware)
+  * [Setting up real time audio priority for xwax](/setting_up_real_time_audio_priority_for_xwax)
+  * [Writing your start-up command](/writing_your_start-up_command)
 
 ### Using xwax
 
-  * [[Keyboard Control]]
-  * [[Novation Dicer Control]]
+  * [Keyboard Control](/keyboard_control)
+  * [Novation Dicer Control](/novation_dicer_control)
 ## Hardware & xwax
 
-  * [Tested Soundcards](List of soundcards)
-  * [[Timecode Records and CDs]]
+  * [Tested Soundcards](/list_of_soundcards)
+  * [Timecode Records and CDs](/timecode_records_and_cds)
 
 
 ## Non-Standard Usages and Modifications
 
 ### Non-Standard Usages
 
-  * [[One deck setup]] - Controlling several virtual decks with only one turntable
-  * [[Four-deck rigging]] - Breaking xwax's 3 deck barrier
+  * [One deck setup](/one_deck_setup) - Controlling several virtual decks with only one turntable
+  * [Four-deck rigging](/four-deck_rigging) - Breaking xwax's 3 deck barrier
 
 ### Patches
 
-  * [ Cues saving and display](https://github.com/oligau/xwax-1.5-xwaxed-cues) - Port of xwaxed cues features. Save and load from .cue file and cue display.
+  * [Cues saving and display](https://github.com/oligau/xwax-1.5-xwaxed-cues) - Port of xwaxed cues features. Save and load from .cue file and cue display.
   * [xwax Timecode](https://github.com/oligau/xwax-1.5-timecode) - Version of xwax that contains Mark's timecode definitions for 4khz, 2khz and 1khz versions. [Timecode 1khz 0.1 FLAC and MP3 torrent](http://oscille.ca/tracker/xwax-timecode-0.1.zip.torrent)
   * [OSC Server](https://github.com/oligau/xwax-1.5-osc) - Evolution of cmd branch. Permits to send commands with xwax-client command line or by OSC messages.
   * [ympd web client](https://github.com/oligau/ympd-xwax) - xwax remote control branch of ympd mpd client
@@ -59,7 +59,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
   * [Changing the font size in xwax](/changing_the_font_size_in_xwax)
   * ["Vertical side-by-side waveforms" patch](http://pastebin.fr/pastebin.php?dl=22474) for xwax 1.0
-  * [[45RPM Mode]] for 0.7 and earlier
+  * [45RPM Mode](/45rpm_mode) for 0.7 and earlier
 
 
 ## External Tools and Scripts
@@ -81,8 +81,8 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### External Tools
 
-  * [[xwax Playlist Exporter]] - An Amarok 2 script
-  * [[bpm-tools]] - BPM detection
+  * [xwax Playlist Exporter](/xwax-playlist-exporter) - An Amarok 2 script
+  * [bpm-tools](/bpm-tools) - BPM detection
   * [key-tools](http://www.pogo.org.uk/~mark/key-tools/)- Key detection
 
 ## Misc
@@ -95,7 +95,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * Getting pops, clicks and xruns? Try increasing your buffer size.
   * xwax not working with your CD players? Turn off key lock/master tempo.
   * [Diagnosing the Scope Views](http://serato.com/articles/scratchlive/2781/diagnosing-the-scope-views) - A useful article from Serato on using the scope display. Helpful if your timecode's performance is less than optimal.
-  * [[TTF DejaVu fonts not found]]
+  * [TTF DejaVu fonts not found](/ttf_dejavu_fonts_not_found)
 
 # xwax Community
 
