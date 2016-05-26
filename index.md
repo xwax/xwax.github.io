@@ -66,18 +66,18 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### Import Scripts
 
-[[Default Import Script]]
+[Default Import Script](/default_import_script)
 
   * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
   * [cd audio instructions](/setting_up_the_cd_audio_importer)
 
 ### Scan Scripts
 
-[[Default Scan Script]]
+[Default Scan Script](/default_scan_script)
 
   * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
-  * [[iggy's Scan Script]] - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata
-  * [[oligau's Scan Script]] - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata or from filename if no tag present
+  * [iggy's Scan Script](/iggy_s_scan_script) - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata
+  * [oligau's Scan Script](/oligau_s_scan_script) - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata or from filename if no tag present
 
 ### External Tools
 
