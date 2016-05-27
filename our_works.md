@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Our Works
+redirect_from:
+  - /ourworks
+  - /ourworks/
 ---
 # Our Works
 
@@ -15,7 +18,7 @@ If you use xwax and make your works public, consider adding your name and a link
   * Daniel Holbach - [dholbach Mixcloud](http://www.mixcloud.com/dholbach) ([and some older mixes too](http://daniel.holba.ch/blog/mixtapes))
   * DJL - [Plenty of mixes](http://www.dj-djl.com), mostly done with xwax
   * Ingo Starr - [10 Favoriten!](http://soundcloud.com/ingo-starr/10-favoriten) & [10 more](http://www.mixcloud.com/Ingo_Starr/ingo-starr-10-more/) (both done with xwax using the dicers functionality)
-  * Intamixx Music Company UK - [[http://soundcloud.com/intamixx]] & [[http://www.intamixx.co.uk]]
+  * Intamixx Music Company UK - [http://soundcloud.com/intamixx](http://soundcloud.com/intamixx) & [http://www.intamixx.co.uk](http://www.intamixx.co.uk)
   *  Louis Pilfold - [A Jungle mix](http://www.mixcrate.com/mrpopinjay/raggawocky-baby-seal-jungle-mix-278911) made with xwax 1.3 :)
 
 Keep the mixes coming in!
