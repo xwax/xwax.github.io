@@ -2,7 +2,6 @@
 layout: default
 title: Default xwax Scan Script
 ---
-# Default xwax Scan Script
 
 ## xwax 1.3 - Current
 

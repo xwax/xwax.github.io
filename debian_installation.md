@@ -2,7 +2,6 @@
 layout: default
 title: Debian Repository Installation
 ---
-# Debian Repository Installation
 
 xwax has been packaged for Debian and is available from the main Debian package repositories in the Wheezy release, but is out of date (xwax 0.9-2). If you are running the testing branch (Jessie), you can execute the following command to install xwax 1.4 and all its dependencies.
 

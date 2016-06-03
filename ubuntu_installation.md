@@ -2,7 +2,6 @@
 layout: default
 title: Ubuntu Installation
 ---
-# Ubuntu Repository Installation
 
 xwax has been packaged for Ubuntu and Debian and is available from the universe package repositories.
 

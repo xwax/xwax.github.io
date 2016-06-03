@@ -2,7 +2,6 @@
 layout: default
 title: Ewan's Scan + Import Scripts for Recording and Scratching a Live Input
 ---
-# Ewan's Scan + Import Scripts for Recording and Scratching a Live Input
 
 ## Usage
 

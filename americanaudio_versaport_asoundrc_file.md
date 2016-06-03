@@ -3,8 +3,6 @@ layout: default
 title: American Audio Versaport .asoundrc
 ---
 
-## American Audio Versaport .asoundrc
-
 
 Copy and paste into a file called /home/<user>/.asoundrc
 

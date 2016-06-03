@@ -5,7 +5,6 @@ redirect_from:
   - /ourworks
   - /ourworks/
 ---
-# Our Works
 
 ## Mixes
 

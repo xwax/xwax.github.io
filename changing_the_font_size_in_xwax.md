@@ -2,7 +2,6 @@
 layout: default
 title: Changing the font size in xwax
 ---
-# Changing the font size in xwax
 
 **Update:** instead of patching, you can use xwax's scalable UI as of version 1.4. See `man xwax` for information and examples.
 

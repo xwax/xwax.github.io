@@ -2,7 +2,6 @@
 layout: default
 title: Keyboard Controls
 ---
-# Keyboard Control
 
 ## Library Controls
 

@@ -2,7 +2,6 @@
 layout: default
 title: Mixvibes umix44 .asoundrc
 ---
-# Mixvibes umix44 .asoundrc
 
 Copy and paste into a file called /home/<user>/.asoundrc
 

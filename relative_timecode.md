@@ -2,7 +2,6 @@
 layout: default
 title: Adding Togglable Relative Timecode Control
 ---
-# Adding Togglable Relative Timecode Control
 
 ## Relative Timecode?
 

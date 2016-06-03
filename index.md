@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Documentation
+title: xwax Documentation
 ---
-#  xwax Documentation
 
 xwax is an open source [vinyl emulation software](http://en.wikipedia.org/wiki/Vinyl_emulation_software) project under the [GPL](http://en.wikipedia.org/wiki/Gpl) for GNU\Linux
 

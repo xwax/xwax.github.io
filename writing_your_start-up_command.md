@@ -3,8 +3,6 @@ layout: default
 title: Writing  Your Startup Command
 ---
 
-# Writing Your Startup Command
-
 xwax is launched from the terminal by entering a command consisting of `xwax` followed by a series of flags that tell xwax what settings to use, where to scan for you music, etc. This page will walk you though the various flags and help you decide which ones you ought to use.
 
 ## An Explanation of the Flags

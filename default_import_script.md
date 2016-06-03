@@ -2,7 +2,6 @@
 layout: default
 title: Default xwax Import Script
 ---
-# Default xwax Import Script
 
 
 ## xwax ? - Current

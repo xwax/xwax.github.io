@@ -2,7 +2,6 @@
 layout: default
 title: Using xwax with only one turntable or CDJ
 ---
-#  Using xwax with only one turntable or CDJ
 
 Using xwax with only one turntable or CDJ is possible if you use an Y-adapter cable to send your preamp's output to two pairs of inputs of your soundcard, your ALSA setup allows you to read twice from the same source or you are using the JACK audio server.
 

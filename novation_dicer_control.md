@@ -2,7 +2,6 @@
 layout: default
 title: Novation Dicer Control
 ---
-# Novation Dicer Control
 
 [The Novation Dicer](http://global.novationmusic.com/digital-dj/dicer) is a novel midi controller designed to sit in the 45 adapter slot of a Technics turntable. It was the first controller to get support within xwax.
 

@@ -2,7 +2,6 @@
 layout: default
 title: Connecting Your Hardware
 ---
-# Connecting Your Hardware
 
 ## Setup Diagram
 

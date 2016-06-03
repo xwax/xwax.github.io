@@ -2,7 +2,6 @@
 layout: default
 title: Building xwax from Source
 ---
-## Building xwax from source
 
 Installing xwax this way may seem daunting if you are new to the terminal but with a little help you should encounter no problems at all.
 

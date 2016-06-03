@@ -2,7 +2,6 @@
 layout: default
 title: Timecode Records and CDs
 ---
-# Timecode Media
 
 **xwax** requires a special media source embedded with a special "tone", known as a *timecode*, to send a signal to xwax telling it how to manipulate the audio file.
 

@@ -168,4 +168,15 @@ a:hover {
   clear: both;
 }
 
+.title {
+  h1 {
+    display: inline-block;
+  }
+
+  .edit {
+    margin-left: 0.5em;
+    color: #999999;
+  }
+}
+
 @import 'soundcards';

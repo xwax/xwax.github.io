@@ -2,7 +2,6 @@
 layout: default
 title: Changelog
 ---
-## Changelog
 
 All versions of xwax are available [here](http://xwax.org/releases/).
 
