@@ -3,7 +3,7 @@ layout: default
 title: xwax Documentation
 ---
 
-xwax is an open source [vinyl emulation software](http://en.wikipedia.org/wiki/Vinyl_emulation_software) project under the [GPL](http://en.wikipedia.org/wiki/Gpl) for GNU\Linux
+xwax is an open source [vinyl emulation software](http://en.wikipedia.org/wiki/Vinyl_emulation_software) project under the [GPL](http://en.wikipedia.org/wiki/Gpl) for GNU/Linux.
 
 Please feel free to contribute to the documentation. You can also chat with or ask advice from the xwax community live in the IRC channel #xwax on [irc.freenode.net](http://freenode.net/using_the_network.shtml)
 
