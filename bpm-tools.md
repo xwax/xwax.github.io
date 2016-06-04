@@ -30,7 +30,7 @@ find ./ -type f -print0 | xargs -0 -n1 bpm-tag
 
 If you want to scan annother directory replace `./` with the folder you want to scan.
 
-If you have a multicore machine try this, it will run 4 instances in parralel:
+If you have a multicore machine try this, it will run 4 instances in parallel:
 
 ```sh
 find ./ -type f -print0 | xargs -0 -n1 -P4 bpm-tag
