@@ -78,6 +78,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
   * [iggy's Scan Script](/iggy_s_scan_script) - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata
   * [oligau's Scan Script](/oligau_s_scan_script) - Uses playlists to speed up xwax's startup time and gets BPM info from file metadata or from filename if no tag present
+  * [Mark's scan script with BPM tags](/mark_scan_tags) - Extract BPM information from file tags on the fly, and cache it
 
 ### External Tools
 
