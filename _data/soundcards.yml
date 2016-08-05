@@ -43,15 +43,15 @@
 
 - name: Hercules DJ Console Mk2
   alsa_device_names:
-    - ???
+    - plughw:Mk2,0,0
   links:
     - http://www.hercules.com/uk/legacy/bdd/p/12/dj-console-mk2-virtualdj-djc-ed/
   tested_on:
-    - Debian Squeeze
+    - Debian Jessie
   comments: |
     Requires a high output cartridge such as Shure M44-7 (9.5mV) to work well,
     Pickering 625-DJ (3mV) was not loud enough. Set Headphones Selection knob
-    to Deck B to isolate output for second deck on phono outputs 3 and 4.
+    to Deck B to isolate output for second deck on RCA socket outputs 3 and 4.
 
 
 - name: Native Instruments Audio 4 DJ

@@ -25,7 +25,8 @@ The Dicer has 3 different modes, selected by the three small buttons on the cont
 
 Buttons with a cue point set to them are lit, those without are dimmed.
 
-^  Mode  ^  Button  ^  Function  ^
+|  Mode  |  Button  |  Function  |
+|  ---   |  ---     |  ---       |
 | Cue | Dice Button | Jump to the specified cue point, or set it if unset. |
 | ::: | Dice Button + Mode Button | Unset the specified cue point |
 | Punch | Dice Button | "Punch" to the specified cue point, or set it if unset. Returns playback to normal when the button is released, much like slip-mode on Pioneer CDJs. |
