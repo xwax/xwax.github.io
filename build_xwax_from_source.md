@@ -30,7 +30,7 @@ You can try running xwax with ALSA by executing the following command in the ter
 
 To run xwax with JACK, first run the QjackCtl control panel to configure and start the JACK server. On Debian or Ubuntu, this program should be on the Sound & Video menu. Then run xwax from the terminal with `xwax -j deck1` to start a deck with the JACK name 'deck 1'. You will need to connect the JACK ports in the Connections window for sound to be routed between xwax and your soundcard.
 
-![JACK connection GUI](/images/xwax_jack_connections.png)
+![JACK connection GUI](/images/xwax-jack-connections.png)
 
 To open two decks and specify the path to music files in the /home/myusername/Music directory, you can use the command:
 
