@@ -14,7 +14,7 @@ The xwax core capable of using as many interfaces that you can provide. However,
 To break the three deck barrier you can run multiple instances of xwax with out complication. This would result in more than one xwax window being open. You can split these instances (the windows) as you see fit,, and ALT+TAB between the two windows to control them. *Just remember to keep track of which window is for which decks!*
 
 # See also
-[One deck setup](/one_deck_setup)- Controlling a number of virtual decks with a smaller number of physical decks.
+[One deck setup](/one_deck_setup) - Controlling a number of virtual decks with a smaller number of physical decks.
 
 # Potential Modification
 The only reason multiple instances of xwax is required for 4 or more decks that is there not enough buttons on a keyboard to control it. A modification could allow you to control additional decks with a midi controller or another program. For someone with a little coding knowledge, this should be pretty easy.

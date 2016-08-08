@@ -9,7 +9,7 @@ All versions of xwax are available [here](http://xwax.org/releases/).
 
   * Scan the music library in the background on startup
   * Function to re-scan a crate
-  * Performance improovement to audio resampler
+  * Performance improvement to audio resampler
   * Additional font paths
   * Minor bug fixes
 

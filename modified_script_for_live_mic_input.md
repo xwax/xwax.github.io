@@ -44,7 +44,7 @@ fi |
 (Note how `live` has been appended to the list of file extensions in the 5th line)
 ### Dummy Tracks
 
-The dummy tracks don't need to be actual tracks, they can be anything so long as they have the file extension `".live"`. Just save two blank text documents as "`micinput1.live`" and "`micinput2.live`"" or something similar and then put them in a directory with your music that xwax is set to scan.
+The dummy tracks don't need to be actual tracks, they can be anything so long as they have the file extension `".live"`. Just save two blank text documents as "`micinput1.live`" and "`micinput2.live`" or something similar and then put them in a directory with your music that xwax is set to scan.
 
 To activate mic input, just load one of these files. xwax won't load a track that's already loaded into a deck so you need to alternate between the two dummy tracks in order to record twice in a row.
 
