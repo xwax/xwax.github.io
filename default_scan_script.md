@@ -8,7 +8,7 @@ title: Default xwax Scan Script
 This version added the ability to extract BPM metadata from a correctly formatted filename. e.g. "`Jo - R Type (165 BPM).mp3`"
 It also fixed the bug in the previous version where only lower-case file formats would be shown in the library.
 
-<code bash scan>
+```
 #!/bin/sh
 #
 # Take a pathname as an argument and output a playlist to standard
@@ -53,13 +53,13 @@ sed '
 # BPM
 s:\(.*\) *(\([0-9]\+\.\?[0-9]\+\) *BPM)$:\1\t\2:
 }'
-</code>
+```
 
 ## xwax 1.2
 
 This version of the xwax script only adds known file formats to the library. There is a known bug where only lower case file extensions are added to the library.
 
-<code bash scan>
+```
 #!/bin/sh
 #
 # Take a pathname as an argument and output a playlist to standard
@@ -93,12 +93,12 @@ t
 s:/\([A-H]\?[A0-9]\?[0-9].\? \+\)\?\([^/]*\)\.[A-Z0-9]*$:\0\t\t\2:pi
 }
 '
-</code>
+```
 
 
 ## xwax ? - 1.1
 
-<code bash scan>
+```
 #!/bin/sh
 #
 # Take a pathname as an argument and output a playlist to standard
@@ -130,4 +130,5 @@ t
 # /[<ABnum>[.]] <name>.ext
 s:/\([A-H]\?[A0-9]\?[0-9].\? \+\)\?\([^/]*\)\.[A-Z0-9]*$:\0\t\t\2:pi
 }
-'</code>
+'
+```

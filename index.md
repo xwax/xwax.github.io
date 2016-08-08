@@ -18,7 +18,6 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * [Ubuntu Repository Installation](/ubuntu_installation)
   * xwax is also avalible in the Arch Linux Community repository
 
-
 ### Configuring xwax
 
   * [Connecting your hardware](/connecting_your_hardware)
@@ -49,11 +48,8 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * [xwax Timecode](https://github.com/oligau/xwax-1.5-timecode) - Version of xwax that contains Mark's timecode definitions for 4khz, 2khz and 1khz versions. [Timecode 1khz 0.1 FLAC and MP3 torrent](http://oscille.ca/tracker/xwax-timecode-0.1.zip.torrent)
   * [OSC Server](https://github.com/oligau/xwax-1.5-osc) - Evolution of cmd branch. Permits to send commands with xwax-client command line or by OSC messages.
   * [ympd web client](https://github.com/oligau/ympd-xwax) - xwax remote control branch of ympd mpd client
-  * [Relative Timecode](relative timecode) - Togglable prevention of record skipping and needle dropping
+  * [Relative Timecode](/relative_timecode) - Togglable prevention of record skipping and needle dropping
   * ["Vertical side-by-side waveforms" patch](http://pastebin.fr/pastebin.php?dl=24065) for xwax 1.3-beta2 (see [screenshot](http://twitpic.com/6suvkn))
-  * ["playedtracks" patch](http://confusedbits.net/coding/playedtracks-patch-for-xwax-0-7/) for xwax 0.7
-  * ["cue points" patch](http://confusedbits.net/coding/cue-points-patch-for-xwax-0-7/) for xwax 0.7
-
 
 ### Outdated Hacks
 
@@ -69,7 +65,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 [Default Import Script](/default_import_script)
 
   * [Scan + Import Script for Scratching a Live Input](/modified_script_for_live_mic_input)
-  * [cd audio instructions](/setting_up_the_cd_audio_importer)
+  * [CD audio instructions](/setting_up_the_cd_audio_importer)
 
 ### Scan Scripts
 
@@ -82,7 +78,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
 ### External Tools
 
-  * [xwax Playlist Exporter](/xwax-playlist-exporter) - An Amarok 2 script
+  * [xwax Playlist Exporter](/xwax_playlist_exporter) - An Amarok 2 script
   * [bpm-tools](/bpm-tools) - BPM detection
   * [key-tools](http://www.pogo.org.uk/~mark/key-tools/)- Key detection
 
@@ -104,4 +100,4 @@ xwax is not only a project, but also a lively community!
 
   * Check out [our works](/our_works) and list your creations too!
   * Get in touch with the developers with your feedback and bug reports via the [xwax-devel mailing list.](https://lists.sourceforge.net/lists/listinfo/xwax-devel)
-  * You can also chat with or ask advice from the xwax community live in the IRC channel #xwax on [irc.freenode.net](http://freenode.net/using_the_network.shtml). Best practice is to ask your question and then leave your IRC client running while you do something else as it may be some time before someone replies.
+  * You can also chat with or ask advice from the xwax community live in the IRC channel #xwax on [irc.freenode.net](http://freenode.net/). Best practice is to ask your question and then leave your IRC client running while you do something else as it may be some time before someone replies.

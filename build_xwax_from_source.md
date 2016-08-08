@@ -26,7 +26,7 @@ sudo make install`
 ## Now that you have installed xwax...
 
 You can try running xwax with ALSA by executing the following command in the terminal:
-`xwax -a plughw:0` There is a good chance that this will not work with xwax >1.0 until you increase the scheduling priority of the audio playback thread. You can find help with this in the [Setting up real time audio priority for xwax](/setting_up_realtime_audio_priority_for_xwax) page of the wiki.
+`xwax -a plughw:0` There is a good chance that this will not work with xwax >1.0 until you increase the scheduling priority of the audio playback thread. You can find help with this in the [Setting up real time audio priority for xwax](/setting_up_real_time_audio_priority_for_xwax) page of the wiki.
 
 To run xwax with JACK, first run the QjackCtl control panel to configure and start the JACK server. On Debian or Ubuntu, this program should be on the Sound & Video menu. Then run xwax from the terminal with `xwax -j deck1` to start a deck with the JACK name 'deck 1'. You will need to connect the JACK ports in the Connections window for sound to be routed between xwax and your soundcard.
 
