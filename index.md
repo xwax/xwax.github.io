@@ -34,7 +34,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
 
   * [Tested Soundcards](/list_of_soundcards)
   * [Timecode Records and CDs](/timecode_records_and_cds)
-
+  * [CDJ Behaviours](/cdj_behaviors)
 
 ## Non-Standard Usages and Modifications
 
