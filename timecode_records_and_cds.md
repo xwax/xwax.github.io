@@ -20,7 +20,7 @@ The following records are still supported by xwax but are no longer available in
 
 ## CD Media
 
-- [Scratch Live Control CD](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) *([Free Download](http://serato.com/downloads/scratchlive-controlcd))* ** Recommended**
+- [Scratch Live Control CD](http://www.rane.com/scratch.html) by [Serato](http://www.serato.com/) *([Free Download](http://serato.com/downloads/scratchlive-controlcd))* **Recommended**
 
 Current generation Traktor Scratch CDs **are not** supported.
 
