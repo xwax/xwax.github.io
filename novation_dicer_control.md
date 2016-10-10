@@ -35,4 +35,4 @@ Buttons with a cue point set to them are lit, those without are dimmed.
 ## See also
 
   * [ Novation's Dicer related downloads page](http://us.novationmusic.com/support/product-downloads?product=Dicer)
-  * [ The Dicer Programmer's Reference Document](http://d19ulaff0trnck.cloudfront.net/sites/default/files/downloads/4079/dicer-programmers-reference2.pdf)
+  * [ The Dicer Programmer's Reference Document](https://d19ulaff0trnck.cloudfront.net/sites/default/files/novation/downloads/4079/dicer-programmers-reference2.pdf)
