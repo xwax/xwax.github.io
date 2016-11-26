@@ -52,6 +52,9 @@
     Requires a high output cartridge such as Shure M44-7 (9.5mV) to work well,
     Pickering 625-DJ (3mV) was not loud enough. Set Headphones Selection knob
     to Deck B to isolate output for second deck on RCA socket outputs 3 and 4.
+    This hardware has all four channels in one ALSA device, so to use two decks
+    you will need an .asoundrc file similar to the file for the
+    [Maya 44](http://www.pogo.org.uk/~mark/linuxdj/maya44.asoundrc).
 
 
 - name: Native Instruments Audio 4 DJ
@@ -130,7 +133,7 @@
     - Debian Squeeze 2012/09
     - avlinux 6.0
   comments: |
-    Needs a [.asoundrc file](/docs/americanaudio_versaport_asoundrc_file) to
+    Needs a [.asoundrc file](americanaudio_versaport_asoundrc_file) to
     provide stereo pairs.
 
     It only have a preamp on Input 2, so you need external preamps to use both
@@ -153,7 +156,7 @@
     - Debian Squeeze 2012/09
     - avlinux 6.0
   comments: |
-    Needs a [.asoundrc file](/docs/mixvibes_umix44_asoundrc_file) to
+    Needs a [.asoundrc file](mixvibes_umix44_asoundrc_file) to
     provide stereo pairs.
 
     Available as OEM variants (MixVibes U-MIX44, Reloop Spin!, iScratch
