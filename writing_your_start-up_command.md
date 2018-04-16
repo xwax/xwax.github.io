@@ -83,17 +83,25 @@ Each directory within music will show up as a crate inside xwax, etc. FIXME
 Should this be it's own page?
 
 ```bash
-#!/bin/sh
+#!/usr/bin/env bash
 
 # The loop
 # Replace ~/Music/* with the location of the directories you wish to scan FIXME
-PLAYLISTS=
-for P in ~/Music/*; do
-    PLAYLISTS="-l $P $PLAYLISTS"
-done
 
-# Replace this start up command with your own, except keeping $PLAYLISTS in place of the -l flag
-xwax -a plughw:Audio4DJ,0,0 -a plughw:Audio4DJ,0,1 $PLAYLISTS
+declare -a FLAGS=()
+
+  for CRATE in ~/Music/*; do
+   if [ -d "$CRATE" ]; then
+      echo "$CRATE"
+
+      FLAGS+=("-l")
+      FLAGS+=("$CRATE")
+   fi
+  done
+
+# Replace this start up command with your own, except keeping "${FLAGS[@]}" in place of the -l flag 
+xwax -a plughw:Audio4DJ,0,0 -a plughw:Audio4DJ,0,1 "${FLAGS[@]}"
+
 ```
 
 
