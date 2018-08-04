@@ -3,7 +3,7 @@ layout: default
 title: Mixvibes umix44 .asoundrc
 ---
 
-Copy and paste into a file called /home/<user>/.asoundrc
+Copy and paste into a file called ~/.asoundrc (a hidden file in your home directory).
 
 ```
 pcm.umix44_playback {
