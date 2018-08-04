@@ -4,7 +4,7 @@ title: American Audio Versaport .asoundrc
 ---
 
 
-Copy and paste into a file called /home/<user>/.asoundrc
+Copy and paste into a file called ~/.asoundrc (a hidden file in your home directory).
 
 ```
 #
