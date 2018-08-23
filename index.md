@@ -92,6 +92,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * Getting pops, clicks and xruns? Try increasing your buffer size.
   * xwax not working with your CD players? Turn off key lock/master tempo.
   * [Diagnosing the Scope Views](http://serato.com/articles/scratchlive/2781/diagnosing-the-scope-views) - A useful article from Serato on using the scope display. Helpful if your timecode's performance is less than optimal.
+  * Scope signal is square? You might have input distortion if your CD player output is too loud for your audio interface input. If the audio interface has a fixed input gain, you can lower the amplitude of the timecode WAV file in a program such as Audacity and burn a new timecode CD.
   * [TTF DejaVu fonts not found](/ttf_dejavu_fonts_not_found)
 
 # xwax Community
