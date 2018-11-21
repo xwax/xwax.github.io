@@ -16,7 +16,7 @@ Please feel free to contribute to the documentation. You can also chat with or a
   * [Building xwax from Source](/build_xwax_from_source)
   * [Debian Repository Installation](/debian_installation)
   * [Ubuntu Repository Installation](/ubuntu_installation)
-  * xwax is also avalible in the Arch Linux Community repository
+  * xwax is also available in the Arch Linux Community repository
 
 ### Configuring xwax
 
