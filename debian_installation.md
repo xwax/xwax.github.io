@@ -3,7 +3,11 @@ layout: default
 title: Debian Repository Installation
 ---
 
-xwax has been packaged for Debian and is available from the main Debian package repositories. If you are running Debian stable (Strech) or oldstable (Jessie), you can execute the following command to install xwax (1.6 for Stretch, and 1.5 for Jessie) and all its dependencies:
+xwax has been packaged for Debian and is available from the main Debian package repositories.
+
+You can see which version is available in which release on [package.debian.org](http://packages.debian.org/xwax).
+
+If you are running a Debian version which have a package (see above), you can execute the following command to install xwax and all its dependencies:
 
 ```
 sudo apt-get install xwax
