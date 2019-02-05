@@ -11,11 +11,10 @@ Ensure you have Ruby installed, and the repo cloned locally.
 cd /path/to/xwax.github.io
 
 # Install the dependancies
-gem install bundler
-bundle install
+gem install gh-pages
 
 # Run the site compiler
-bundle exec jekyll server --watch --safe
+jekyll server --watch --safe
 
 # Now go to localhost:4000
 ```
