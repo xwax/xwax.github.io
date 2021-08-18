@@ -21,6 +21,3 @@ If you use xwax and make your works public, consider adding your name and a link
   *  Louis Pilfold - [A Jungle mix](http://www.mixcrate.com/mrpopinjay/raggawocky-baby-seal-jungle-mix-278911) made with xwax 1.3 :)
   * Maxime Daniel - [Techno Live Mix #1](https://www.youtube.com/watch?v=MB-u5mNBSVI) made with xwax 1.6 :)
 
-Keep the mixes coming in!
-
-  * xwax [Soundcloud group](http://soundcloud.com/groups/xwax)
