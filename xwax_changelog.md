@@ -5,6 +5,33 @@ title: Changelog
 
 All versions of xwax are available [here](http://xwax.org/releases/).
 
+### v1.8 (2021-08-18)
+
+* Change to the license to GPL version 3
+* Compatibility with Pioneer DJ "RekordBox" vinyls
+* Fix a bug where decimal numbers are parsed in an unexpected way
+
+Acknowledgements: Hugh Frater, Kilian, Yves Adler
+
+### v1.7 (2018-01-19)
+
+* Fix a bug that prevented dithering from being used
+* Honour the system locale; allow the full character set in track names
+* When searching, match characters in other locales
+
+Acknowledgements: Stefan Berg-Johansen
+
+### v1.6 (2016-08-13)
+
+* Added timecode creator (for the adventurous)
+* Correct interpretation of ALSA's buffer size
+* Command-line flag to remove all window decorations (--no-decor)
+* A dummy deck for test cases
+* Internal restructing in preparation for new features
+* Build without warnings on modern compilers
+
+Acknowledgements: Daniel James, Alessio Treglia
+
 ### v1.5 (2014-02-09)
 
   * Scan the music library in the background on startup
