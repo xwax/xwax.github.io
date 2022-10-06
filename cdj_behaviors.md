@@ -7,7 +7,7 @@ CDJ's are the modern version of a turntable that plays CD's instead of vinyl rec
 
 ||Traktor CD Timecode|
 |--- | --- |
-|CDJ|[Pioneer CDJ-200](http://www.pioneerelectronics.com/PUSA/DJ/CD-DVD-Media-Players/CDJ-200)|
+|CDJ|[Pioneer CDJ-200](https://www.pioneerdj.com/en-us/product/player/archive/cdj-200/black/overview/)|
 |Looping|NO|
 |Tempo Adjust|YES|
 |Cue Point (Primary)|NO|

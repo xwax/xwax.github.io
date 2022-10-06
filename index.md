@@ -45,16 +45,15 @@ This is a wiki, so please feel free to contribute to the documentation. You can 
 ### Patches
 
   * [Cues saving and display](https://github.com/oligau/xwax-1.5-xwaxed-cues) - Port of xwaxed cues features. Save and load from .cue file and cue display.
-  * [xwax Timecode](https://github.com/oligau/xwax-1.5-timecode) - Version of xwax that contains Mark's timecode definitions for 4khz, 2khz and 1khz versions. [Timecode 1khz 0.1 FLAC and MP3 torrent](http://oscille.ca/tracker/xwax-timecode-0.1.zip.torrent)
+  * [xwax Timecode](https://github.com/oligau/xwax-1.5-timecode) - Version of xwax that contains Mark's timecode definitions for 4khz, 2khz and 1khz versions. 
   * [OSC Server](https://github.com/oligau/xwax-1.5-osc) - Evolution of cmd branch. Permits to send commands with xwax-client command line or by OSC messages.
   * [ympd web client](https://github.com/oligau/ympd-xwax) - xwax remote control branch of ympd mpd client
   * [Relative Timecode](/relative_timecode) - Togglable prevention of record skipping and needle dropping
-  * ["Vertical side-by-side waveforms" patch](http://pastebin.fr/pastebin.php?dl=24065) for xwax 1.3-beta2 (see [screenshot](http://twitpic.com/6suvkn))
 
 ### Outdated Hacks
 
   * [Changing the font size in xwax](/changing_the_font_size_in_xwax)
-  * ["Vertical side-by-side waveforms" patch](http://pastebin.fr/pastebin.php?dl=22474) for xwax 1.0
+  * "Vertical side-by-side waveforms" patch for xwax 1.3-beta2 (see [screenshot](http://twitpic.com/6suvkn))
   * [45RPM Mode](/45rpm_mode) for 0.7 and earlier
 
 
@@ -91,7 +90,7 @@ This is a wiki, so please feel free to contribute to the documentation. You can 
   * Virtual decks playing in reverse? Switch the left and right RCA plugs over.
   * Getting pops, clicks and xruns? Try increasing your buffer size.
   * xwax not working with your CD players? Turn off key lock/master tempo.
-  * [Diagnosing the Scope Views](http://serato.com/articles/scratchlive/2781/diagnosing-the-scope-views) - A useful article from Serato on using the scope display. Helpful if your timecode's performance is less than optimal.
+  * [Diagnosing the Scope Views](https://support.serato.com/hc/en-us/articles/202552220-Diagnosing-the-DVS-Scope-Views) - A useful article from Serato on using the scope display. Helpful if your timecode's performance is less than optimal.
   * Scope signal is square? You might have input distortion if your CD player output is too loud for your audio interface input. If the audio interface has a fixed input gain, you can lower the amplitude of the timecode WAV file in a program such as Audacity and burn a new timecode CD.
   * [TTF DejaVu fonts not found](/ttf_dejavu_fonts_not_found)
 

@@ -2,7 +2,7 @@
   alsa_device_names:
     - default
   links:
-    - http://www.behringer.com/EN/Products/UCA222.aspx
+    - https://www.behringer.com/product.html?modelCode=P0A31
   tested_on:
     - Ubuntu 11.04
   comments: |
@@ -13,7 +13,7 @@
   alsa_device_names:
     - ???
   links:
-    - http://www.behringer.com/EN/Products/UFO202.aspx
+    - https://www.behringer.com/product.html?modelCode=P0A12
   tested_on:
     - Ubuntu 11.04
   comments: |
@@ -46,7 +46,7 @@
     - Mk2_pair1
     - Mk2_pair2
   links:
-    - http://www.hercules.com/uk/legacy/bdd/p/12/dj-console-mk2-virtualdj-djc-ed/
+    - https://support.hercules.com/en/product/djconsolemk2-en/
   tested_on:
     - Debian Stretch
   comments: |
@@ -128,7 +128,7 @@
     - versaport_pair1
     - versaport_pair2
   links:
-    - http://www.adjaudio.com/ProductDetails.aspx?ItemNumber=1374
+    - https://www.adj.com/versaport
   tested_on:
     - Debian Squeeze 2012/09
     - avlinux 6.0
@@ -151,7 +151,6 @@
     - umix_pair1
     - umix_pair2
   links:
-    - http://www.mixvibes.com/content/products/u-mix44
   tested_on:
     - Debian Squeeze 2012/09
     - avlinux 6.0
