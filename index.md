@@ -99,5 +99,4 @@ This is a wiki, so please feel free to contribute to the documentation. You can 
 xwax is not only a project, but also a lively community!
 
   * Check out [our works](/our_works) and list your creations too!
-  * Get in touch with the developers with your feedback and bug reports via the [xwax-devel mailing list.](https://lists.sourceforge.net/lists/listinfo/xwax-devel)
-  * You can also chat with or ask advice from the xwax community live in the IRC channel [#xwax](https://webchat.freenode.net/#xwax) on [freenode.net](https://freenode.net). Please be patient and wait around a while if nobody is around to help straight away.
+  * Communicate with others for feedback and bug reports via IRC and the mailing list, which are on the [contact page](https://xwax.org/contact.html). Please be patient and wait around a while if nobody is around to help straight away.
