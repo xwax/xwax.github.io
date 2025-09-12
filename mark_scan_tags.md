@@ -15,8 +15,10 @@ PATHNAME="$1"
 
 if [ -x /usr/local/libexec/xwax-scan ]; then
 	SCAN=/usr/local/libexec/xwax-scan
-else
+elif [ -x /usr/libexec/xwax-scan ]; then
 	SCAN=/usr/libexec/xwax-scan
+else
+	SCAN=/usr/share/xwax/xwax-scan
 fi
 
 if [ -d "$PATHNAME" ] && [ -w "$PATHNAME" ]; then
@@ -47,6 +49,9 @@ IFS=$'\t'
 		;;
 	*.ogg)
 		BPM=`vorbiscomment "$FILE" | sed -n 's/^BPM=//p' | tail -1l`
+		;;
+	*.m4a)
+		BPM=`AtomicParsley "$FILE" -t 2>/dev/null | sed -n -E 's/Atom "tmpo" contains: *([0-9]+).*/\1/p'`
 		;;
 	esac
 
