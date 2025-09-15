@@ -79,7 +79,7 @@ This is a wiki, so please feel free to contribute to the documentation. You can 
 
   * [xwax Playlist Exporter](/xwax_playlist_exporter) - An Amarok 2 script
   * [bpm-tools](/bpm-tools) - BPM detection
-  * [key-tools](http://www.pogo.org.uk/~mark/key-tools/)- Key detection
+  * [key-tools](http://www.pogo.org.uk/~mark/key-tools/) - Key detection
 
 ## Misc
 
