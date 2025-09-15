@@ -104,6 +104,12 @@
 
     [.asoundrc file](http://www.pogo.org.uk/~mark/linuxdj/t6.asoundrc) to provide stereo pairs.
 
+    It's useful to change some ALSA device names in Mark's .asoundrc/asound.conf file to
+    reflect the external labels on the hardware:
+        - T6_pair1 -> T6_pair_Main
+        - T6_pair2 -> T6_pair_A
+        - T6_pair3 -> T6_pair_B
+
 
 - name: Rane SL-1
   alsa_device_names:
