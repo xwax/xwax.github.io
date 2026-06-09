@@ -5,6 +5,30 @@ title: Changelog
 
 All versions of xwax are available [here](http://xwax.org/releases/).
 
+### v1.10 (2026-05-03)
+
+* Make it easier to script crates/directories of music
+* Introduce long command line flags for readability
+* Increase the default size of the display elements
+* Migrate from SDL version 1 to version 2
+* Fix a bug which imported non-stereo files incorrectly
+* Fix a bug which could cause a crash on quit
+* Remove a possible disruption to realtime audio on low memory
+* Resolve potential for ALSA bugs with some hardware
+
+Acknowledgements: Jan Claußen, Juan P C, Christopher Obbard
+
+### v1.9 (2023-05-12)
+
+* Replaced ALSA '-m' flag with a new '--buffer' in samples
+* Revised ALSA buffer handling to improve latencies
+* Renamed '-r' flag to '--rate'
+* Restrict ALSA sample rates to those implemented in hardware
+* Fixes for compatibility with musl C library
+* Minor fixes
+
+Acknowledgements: Daniel Schürmann
+
 ### v1.8 (2021-08-18)
 
 * Change to the license to GPL version 3
